@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    background-color: tan;
+    padding:29px;
+
+}
+.navigation{
+    text-align: center;
+    padding:14px;
+
+    font-size: medium;
+    background-color: black;
+    color: white;
+}
+.slider{
+    width:25%;
+    text-align: center;
+    background-color: red;
+    float: right;
+    padding-bottom: 600px;
+    padding-top: 250px;
+
+}
+.content{
+    padding-bottom: 600px;
+    background-color: yellow;
+    text-align: center;
+    text-decoration: solid;
+ padding-top: 250px;
+ float: left;
+ width: 75%;   
+}
+.footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 19px;
+}
