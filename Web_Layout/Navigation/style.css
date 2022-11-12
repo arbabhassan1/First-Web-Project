@@ -1,0 +1,49 @@
+.header{
+    /* justify-content: center; */
+
+    display: flex;
+    /* background-color: #911; */
+    padding:20px;
+   
+    border:5px solid black;
+    text-align: center;
+}
+*{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+a{
+    /* display: flex; */
+    justify-content: centers;
+    color:rgb(24, 38, 224);
+    padding: 14px 16px;
+display: block;
+
+    /* background-color: grey; */
+    text-decoration: none;
+    font-size: large;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+   
+
+}
+li a:hover{
+    background-color: yellow;
+    color: black;
+}
+li a::content{
+    justify-content: center;
+    float: right;   
+}
+#ok{
+    display: flex;
+    justify-content: right;
+    background-color: aqua;
+    padding: 500px;
+}
